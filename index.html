@@ -13,37 +13,34 @@
 </head>
 
 <body>
-  <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="#home" class="logo">Logo</a>
-    <div id="myLinks">
-      <a href="#">Om Os</a>
-      <a href="#">Produkter</a>
-      <a href="#">Kontakt</a>
-      <a href="#">Nyheder & Blog</a>
-      <a href="#">Kundeservice</a>
-      <a href="#">Din side</a>
-      <a href="#"></a>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+
+  <img src="images/logo.png" id="logo" alt="Logo">
+
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Om Os</a>
+    <a href="#">Produkter</a>
+    <a href="#">Kontakt</a>
+    <a href="#">Nyheder & Blog</a>
+    <a href="#">Kundeservice</a>
+    <a href="#">Din Side</a>
+    <a href="#"></a>
   </div>
-  
-  <!-- End smartphone / tablet look -->
-  </div>
-  
+  <button class="openbtn" onclick="openNav()">&#9776;</button>  
+  <img src="images/background-ph1.jpg" id="coverbillede">
+
+
+  <main>
+    
+  </main>
   <script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
   </script>
 </body>
-
-  
 </html>
