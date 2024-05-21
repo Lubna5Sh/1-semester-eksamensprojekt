@@ -79,6 +79,10 @@
   background-color:#000000;
 }
 
+/*body{
+  padding: 0px 150px;
+}*/
+
 /*Content sections*/
 
 main{
@@ -101,13 +105,17 @@ main{
   max-width: 1200px;
   width: 100%;
   gap: 123px;
-  padding: 125px 25px;
+  /*padding: 125px 25px;*/
+  padding: 90px 150px;
+  align-items: flex-start;
 }
 
 .content img {
   max-width: 300px;
   width: 100%;
-  height: fit-content;
+  max-height: 300px;
+  height: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .text {
@@ -122,7 +130,7 @@ main{
   margin: 0;
   color: #000;
   font-family: "Roboto Serif";
-  font-size: 45px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -131,7 +139,7 @@ main{
 .text p {
   color: #000;
   font-family: Sen;
-  font-size: 36px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 46.8px */
@@ -145,10 +153,11 @@ main{
   cursor: pointer;
   color: #000;
   font-family: Sen;
-  font-size: 36px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .read-more:hover {
@@ -175,14 +184,20 @@ main{
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .insta-gallery img {
   /*max-width: 300px;*/
   /*width: 100%;*/
   max-width: 444.78px;
+  width: 300px;
   max-height: 397px;
+  height: 300px;
   /*max-height: 200px;*/
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -193,6 +208,7 @@ main{
   background-color: #F6C65D;
   color: #000;
   padding: 20px 0;
+  margin-top: 40px;
 }
 
 .footer-container {
