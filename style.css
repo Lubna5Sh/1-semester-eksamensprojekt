@@ -144,3 +144,33 @@ main{
 .read-more:hover {
   background-color:#F6C65D;
 }
+
+/*Instagram section*/
+.white-bg {
+  background-color: #FFFCF5;
+  text-align: center;
+}
+
+.white-bg h2 {
+  margin: 50px;
+  color: #000;
+  font-family: "Roboto Serif";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.insta-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.insta-gallery img {
+  /*max-width: 300px;*/
+  /*width: 100%;*/
+  max-width: 444.78px;
+  max-height: 397px;
+  /*max-height: 200px;*/
+}
