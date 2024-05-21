@@ -18,6 +18,16 @@
   /*padding-bottom: 7%;*/ 
 }
 
+.text-block{
+  position:absolute;
+  bottom:85px;
+  color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+ }
+
 .sidepanel  {
   width: 0;
   position: fixed;
