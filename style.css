@@ -16,16 +16,30 @@
   height: 100%;
   background-size: cover;
   /*padding-bottom: 7%;*/ 
+  /*background: rgba(0, 0, 0, 0.37); /* Optional: to darken the image*/ 
+  filter: brightness(80%); /* Darken the image */
 }
 
+
 .text-block{
-  position:absolute;
+  /*position:absolute;
   bottom:85px;
-  color:#ffffff;
+  color:#ffffff;*/
   font-family: "Roboto", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
  }
 
 .sidepanel  {
@@ -309,7 +323,7 @@ main{
 .footer .logo-section img {
   /*max-width: 100%;
   height: auto;*/
-  width:120px;
-  height:80px;
+  width:200px;
+  height:130px;
   margin-top: 20px;
 }
