@@ -142,21 +142,37 @@
     color: #F6C65D;
 }
 
-.billede-1{
-    display: flex;
-    justify-content: center;
-    width: 1364px;
-    height: 279px;
-    flex-shrink: 0;
-}
+
   
-  /*body{
-    padding: 0px 150px;
-  }*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#FFFCF5;
+  }
   
   /*Content sections*/
 
 main{
     margin:0;
     padding: 90px 150px;
+}
+
+.topsection{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.billede-1{
+    /*display: flex;
+    justify-content: center;
+    width: 1364px;
+    height: 279px;
+    flex-shrink: 0;*/
+    display: block;
+    width: 100%;
+    height:auto;
+    /*max-height: auto;*/
+    /*height: 279px;*/
+    margin: 20px 0;
 }
