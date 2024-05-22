@@ -330,6 +330,28 @@ main{
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  .text-block {
+    font-size: 40px; /* Adjust font size for tablets and smaller devices */
+    padding: 20px; /* Add some padding if needed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Change height to auto to fit the content */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-block {
+    font-size: 30px; /* Adjust font size for mobile devices */
+    padding: 10px; /* Add some padding if needed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; /* Change height to auto to fit the content */
+  }
+}
+
+@media (max-width: 768px) {
   .content {
     flex-direction: column-reverse;
     /*align-items: center;*/
