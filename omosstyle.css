@@ -141,14 +141,22 @@
 .dropdown:hover > a {
     color: #F6C65D;
 }
+
+.billede-1{
+    display: flex;
+    justify-content: center;
+    width: 1364px;
+    height: 279px;
+    flex-shrink: 0;
+}
   
   /*body{
     padding: 0px 150px;
   }*/
   
   /*Content sections*/
-  
+
 main{
     margin:0;
+    padding: 90px 150px;
 }
-  
