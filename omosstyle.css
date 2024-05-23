@@ -159,7 +159,7 @@ main{
 }
 
 .topsection{
-    padding: 90px 150px;
+    padding: 30px 150px;
     max-width: 90%;
     background-color:#FFFCF5;
 }
@@ -206,7 +206,7 @@ h2{
     /*padding: 20px;*/
     display: flex;
     justify-content: flex-start;
-    padding: 90px 150px;
+    padding: 20px 150px;
     max-width: 100%;
     background-color:#FFFCF5;
 }
@@ -284,7 +284,7 @@ li{
 }*/
 
 .lasttext{
-    padding: 90px 150px;
+    padding: 20px 150px;
     max-width: 90%;
     background-color:#FFFCF5;
 }
@@ -304,13 +304,13 @@ li{
 
 /* Slideshow container */
 .comments{
-    padding: 90px 150px;
+    padding: 80px 150px;
     max-width: 90%;
     background-color:#F9D484;
 }
 .slideshow-container {
     position: relative;
-    background: #f1f1f1f1;
+    background: #ffffff;
   }
   
   /* Slides */
@@ -328,7 +328,7 @@ li{
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: #888;
+    color: #101010;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -352,7 +352,7 @@ li{
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background: #ffffff;
   }
   
   /* The dots/bullets/indicators */
@@ -369,7 +369,7 @@ li{
   
   /* Add a background color to the active dot/circle */
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #101010;
   }
   
   /* Add an italic font style to all quotes */
