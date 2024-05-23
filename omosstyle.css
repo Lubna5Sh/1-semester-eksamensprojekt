@@ -344,15 +344,15 @@ li{
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
+    background-color: #bbb;
+    color: #101010;
   }
   
   /* The dot/bullet/indicator container */
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ffffff;
+    background: #F9D484;
   }
   
   /* The dots/bullets/indicators */
