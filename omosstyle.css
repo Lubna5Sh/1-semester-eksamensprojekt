@@ -177,10 +177,11 @@ main{
     flex-shrink: 0;*/
     display: block;
     width: 100%;
-    height:auto;
+    /*height:auto;*/
     /*max-height: auto;*/
-    /*height: 279px;*/
+    height: 279px;
     margin: 20px 0;
+    padding: 20px;
 }
 
 .flex{
@@ -247,12 +248,12 @@ li{
     gap: 100px;
 }
 
-/*#column1{
+#column1{
     align-items: center;
 }
 
 #column2{
     align-items: center;
-}*/
+}
 
 
