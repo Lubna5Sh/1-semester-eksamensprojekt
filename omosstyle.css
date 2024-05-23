@@ -177,3 +177,28 @@ main{
     margin: 20px 0;
 }
 
+.flex{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.billede2-flex{
+    display: block;
+    width: 100%;
+    height:auto;
+    margin: 20px 0;
+}
+
+.billede3-flex{
+    display: block;
+    width: 100%;
+    height:auto;
+    margin: 20px 0;
+}
+
+
+
