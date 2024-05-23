@@ -157,10 +157,16 @@ main{
     padding: 90px 150px;
 }
 
-.topsection{
+.topsection p{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
 }
 
 .billede-1{
@@ -188,17 +194,65 @@ main{
 
 .billede2-flex{
     display: block;
-    width: 100%;
-    height:auto;
+    width: 40%;
+    height:fit-content;
     margin: 20px 0;
 }
 
 .billede3-flex{
     display: block;
-    width: 100%;
+    width: 40%;
     height:auto;
     margin: 20px 0;
 }
 
+.section2-flex p{
+    width: 80%;
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
+
+}
+
+.section3-flex p{
+    width: 80%;
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
+}
+
+li{
+    width: 80%;
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
+}
+
+#row1{
+    flex-direction: row;
+    
+}
+
+#row2{
+    flex-direction: row;
+    gap: 100px;
+}
+
+/*#column1{
+    align-items: center;
+}
+
+#column2{
+    align-items: center;
+}*/
 
 
