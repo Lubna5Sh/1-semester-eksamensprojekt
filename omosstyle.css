@@ -155,10 +155,11 @@ body{
 main{
     margin:0;
     padding: 90px 150px;
+    max-width: 90%;
 }
 
 .topsection p{
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     color: #000;
@@ -167,6 +168,16 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 130%; /* 46.8px */
+}
+
+h2{
+    color: #F6C65D;
+    font-family: "Roboto Serif";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
 }
 
 .billede-1{
@@ -185,7 +196,7 @@ main{
 }
 
 .flex{
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -207,8 +218,18 @@ main{
     margin: 20px 0;
 }
 
+h3{
+    color: #F6C65D;
+    font-family: "Roboto Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
 .section2-flex p{
-    width: 80%;
+    width: 60%;
     color: #000;
     font-family: Sen;
     font-size: 20px;
@@ -219,7 +240,7 @@ main{
 }
 
 .section3-flex p{
-    width: 80%;
+    width: -60%;
     color: #000;
     font-family: Sen;
     font-size: 20px;
@@ -229,7 +250,6 @@ main{
 }
 
 li{
-    width: 80%;
     color: #000;
     font-family: Sen;
     font-size: 20px;
@@ -248,12 +268,25 @@ li{
     gap: 100px;
 }
 
-#column1{
+/*#column1{
     align-items: center;
 }
 
 #column2{
     align-items: center;
+}*/
+
+.lasttext p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
 }
+
 
 
