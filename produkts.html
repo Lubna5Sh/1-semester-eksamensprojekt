@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="produktstyle.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +8,23 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="produktstyle.css">
 </head>
-
 <body>
     <section class="forsidebillede">
         <img src="images/coverimage-om-os.jpg" id="coverbillede" alt="Bygmark">
         <div class="text-block"><h1>Om Os</h1></div>
-        </section>
+    </section>
 
-        <a href="index.html"><img src="images/zerobuzzbrewlogo.png" id="logo" alt="ZeroBuzz logo"></a>
+    <a href="index.html"><img src="images/zerobuzzbrewlogo.png" id="logo" alt="ZeroBuzz logo"></a>
 
-        <div id="mySidepanel" class="sidepanel">
+    <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="dropdown">
             <a href="omos.html" class="dropbtn">Om Os</a>
             <div class="dropdown-content">
-            <a href="#">Medarbejdere</a>
-            <a href="#">Samarbejdspartnere</a>
+                <a href="#">Medarbejdere</a>
+                <a href="#">Samarbejdspartnere</a>
             </div>
         </div>
         <a href="produkts.html">Produkter</a>
@@ -34,22 +33,22 @@
         <div class="dropdown">
             <a href="#" class="dropbtn">Kundeservice</a>
             <div class="dropdown-content">
-            <a href="#">Q&A</a>
-            <a href="#">Retur & forsendelse politik</a>
-            <a href="#">Adresser & Åbningstider</a>
+                <a href="#">Q&A</a>
+                <a href="#">Retur & forsendelse politik</a>
+                <a href="#">Adresser & Åbningstider</a>
             </div>
         </div>
         <div class="dropdown">
             <a href="#" class="dropbtn">Din Side</a>
             <div class="dropdown-content">
-            <a href="#">Log Ind</a>
-            <a href="#">Sign Op</a>
+                <a href="#">Log Ind</a>
+                <a href="#">Sign Op</a>
             </div>
         </div>
         <a href="#" id="shopping-bag"><i class="fa-solid fa-bag-shopping"></i></a>
-        </div>
-        <button class="openbtn" onclick="openNav()">&#9776;</button>    
-        
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>    
+
     <main>
         <article>
             <h3>Ad libitum menu</h3>
@@ -57,14 +56,14 @@
         </article>
         <div class="slider-container">
             <div class="card">
-                <img src="images/nr.208020Crab.jpg" alt="Photo 1">
+                <img src="images/peachbeer.jpg" alt="Photo 1">
                 <div class="card-content">
                     <h3>Nr. 80 Crab</h3>
                     <p>Surimi, avocado, mango og teriyaki sauce</p>
                 </div>
             </div>
             <div class="card">
-                <img src="images/nr.208120Sumo.jpg" alt="Photo 2">
+                <img src="images/peachbeer.jpg" alt="Photo 2">
                 <div class="card-content">
                     <h3>Nr. 81 Sumo</h3>
                     <p>Surimi, laks, ost og avocado</p>
@@ -72,14 +71,14 @@
             </div>
             <!-- Add more cards here -->
             <div class="card">
-                <img src="images/nr.208220Tun.jpg" alt="Photo 1">
+                <img src="images/peachbeer.jpg" alt="Photo 1">
                 <div class="card-content">
                     <h3>Nr. 82 Tun</h3>
                     <p>Tun, avocado, ost og asparges</p>
                 </div>
             </div>
             <div class="card">
-                <img src="images/nr.208320Laks.jpg" alt="Photo 2">
+                <img src="images/peachbeer.jpg" alt="Photo 2">
                 <div class="card-content">
                     <h3>Nr. 83 Laks</h3>
                     <p>Laks, ost og avocado</p>
@@ -87,32 +86,30 @@
             </div>
 
             <div class="card">
-                <img src="images/nr.208420Reje.jpg" alt="Photo 1">
+                <img src="images/peachbeer.jpg" alt="Photo 1">
                 <div class="card-content">
                     <h3>Nr. 84 Reje</h3>
                     <p>Reje, ost, mango og avocado</p>
                 </div>
             </div>
             <div class="card">
-                <img src="images/nr.208520Vegetar.jpg" alt="Photo 2">
+                <img src="images/peachbeer.jpg" alt="Photo 2">
                 <div class="card-content">
                     <h3>Nr. 85 Vegetar</h3>
                     <p>Tofu, avocado, cream cheese, mango og basilikum</p>
                 </div>
             </div>
         </div>
-
     </main>
 
     <script>
-            function openNav() {
+        function openNav() {
             document.getElementById("mySidepanel").style.width = "250px";
         }
-        
+
         function closeNav() {
             document.getElementById("mySidepanel").style.width = "0";
         }
-
     </script>    
 </body>
 </html>
