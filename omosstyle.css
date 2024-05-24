@@ -308,6 +308,17 @@ li{
     max-width: 90%;
     background-color:#F9D484;
 }
+
+.comments h2{
+    color: #000000;
+    font-family: "Roboto Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: left;
+}
+
 .slideshow-container {
     position: relative;
     background: #ffffff;
@@ -359,7 +370,7 @@ h4{
   /* Slides */
 .mySlides {
     display: none;
-    padding: 80px;
+    padding: 30px;
     text-align: center;
 }
   
