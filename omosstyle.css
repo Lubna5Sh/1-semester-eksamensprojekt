@@ -313,6 +313,49 @@ li{
     background: #ffffff;
 }
   
+.rating span {
+    color: #F6C65D;
+    font-size: 24px;
+}
+
+.customer-avatar {
+    width: 60px;
+    height: 60px;
+    background-color: #B4D55E;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sen;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 45%;
+}
+
+.mySlides q{
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4{
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.author{
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
   /* Slides */
 .mySlides {
     display: none;
@@ -373,10 +416,10 @@ li{
 }
   
   /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {font-style: normal;}
   
   /* Add a blue color to the author */
-.author {color: cornflowerblue;}
+.author {color: rgb(0, 0, 0);}
 
 
 /*footer section*/
