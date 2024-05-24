@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="produktstyle.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="forsidebillede">
+        <img src="images/coverimage-om-os.jpg" id="coverbillede" alt="Bygmark">
+        <div class="text-block"><h1>Om Os</h1></div>
+        </section>
+
+        <a href="index.html"><img src="images/zerobuzzbrewlogo.png" id="logo" alt="ZeroBuzz logo"></a>
+
+        <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="dropdown">
+            <a href="omos.html" class="dropbtn">Om Os</a>
+            <div class="dropdown-content">
+            <a href="#">Medarbejdere</a>
+            <a href="#">Samarbejdspartnere</a>
+            </div>
+        </div>
+        <a href="produkts.html">Produkter</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Nyheder & Blog</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Kundeservice</a>
+            <div class="dropdown-content">
+            <a href="#">Q&A</a>
+            <a href="#">Retur & forsendelse politik</a>
+            <a href="#">Adresser & Åbningstider</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Din Side</a>
+            <div class="dropdown-content">
+            <a href="#">Log Ind</a>
+            <a href="#">Sign Op</a>
+            </div>
+        </div>
+        <a href="#" id="shopping-bag"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>   
+        
+    <main>
+        <div class="button-container">
+            <button>Flasker</button>
+            <button>Dåser</button>
+            <button>Tilbud</button>
+        </div>
+        <div class="slider">
+            <div class="product-container">
+                <div class="product">
+                    <img src="strawberry_bottle.png" alt="Jordbær smag">
+                    <h3>Jordbær smag</h3>
+                    <p>En unik blanding, der resulterer i en afbalanceret og forfriskende øl, der er spækket med frisk jordbærfrugtsmag. 0,00% alkohol</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="price">11 kr./stk.</div>
+                    <div class="actions">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="apple_bottle.png" alt="Æble smag">
+                    <h3>Æble smag</h3>
+                    <p>smag forskellen for hver tår. Lavet af den fineste byg og den saftigste af æbler. 0,00% alkohol</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="price">11 kr./stk.</div>
+                    <div class="actions">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+
+
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        const productContainer = document.querySelector('.product-container');
+        let currentIndex = 0;
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                productContainer.style.transform = `translateX(-${currentIndex * 270}px)`;
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < productContainer.children.length - 1) {
+                currentIndex++;
+                productContainer.style.transform = `translateX(-${currentIndex * 270}px)`;
+            }
+        });
+    
+    </script>    
+</body>
+</html>
