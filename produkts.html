@@ -48,39 +48,71 @@
         </div>
         <a href="#" id="shopping-bag"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
-        <button class="openbtn" onclick="openNav()">&#9776;</button>   
+        <button class="openbtn" onclick="openNav()">&#9776;</button>    
         
     <main>
+        <article>
+            <h3>Ad libitum menu</h3>
+            <h2>Crunch roll</h2>
+        </article>
+        <div class="slider-container">
+            <div class="card">
+                <img src="images/nr.208020Crab.jpg" alt="Photo 1">
+                <div class="card-content">
+                    <h3>Nr. 80 Crab</h3>
+                    <p>Surimi, avocado, mango og teriyaki sauce</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/nr.208120Sumo.jpg" alt="Photo 2">
+                <div class="card-content">
+                    <h3>Nr. 81 Sumo</h3>
+                    <p>Surimi, laks, ost og avocado</p>
+                </div>
+            </div>
+            <!-- Add more cards here -->
+            <div class="card">
+                <img src="images/nr.208220Tun.jpg" alt="Photo 1">
+                <div class="card-content">
+                    <h3>Nr. 82 Tun</h3>
+                    <p>Tun, avocado, ost og asparges</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/nr.208320Laks.jpg" alt="Photo 2">
+                <div class="card-content">
+                    <h3>Nr. 83 Laks</h3>
+                    <p>Laks, ost og avocado</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/nr.208420Reje.jpg" alt="Photo 1">
+                <div class="card-content">
+                    <h3>Nr. 84 Reje</h3>
+                    <p>Reje, ost, mango og avocado</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/nr.208520Vegetar.jpg" alt="Photo 2">
+                <div class="card-content">
+                    <h3>Nr. 85 Vegetar</h3>
+                    <p>Tofu, avocado, cream cheese, mango og basilikum</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+            function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
         
-    <main>
-        <h2>Filter DIV Elements</h2>
-        <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-            <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-            <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-            <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-        </div>
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
 
-        <div class="container">
-            <div class="filterDiv cars">BMW</div>
-            <div class="filterDiv colors fruits">Orange</div>
-            <div class="filterDiv cars">Volvo</div>
-            <div class="filterDiv colors">Red</div>
-            <div class="filterDiv cars">Ford</div>
-            <div class="filterDiv colors">Blue</div>
-            <div class="filterDiv animals">Cat</div>
-            <div class="filterDiv animals">Dog</div>
-            <div class="filterDiv fruits">Melon</div>
-            <div class="filterDiv fruits animals">Kiwi</div>
-            <div class="filterDiv fruits">Banana</div>
-            <div class="filterDiv fruits">Lemon</div>
-            <div class="filterDiv animals">Cow</div>
-        </div>
-    </main>
-    </main>
-
-    <script  src="js/js.js">
     </script>    
 </body>
 </html>
