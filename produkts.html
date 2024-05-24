@@ -51,41 +51,6 @@
         <button class="openbtn" onclick="openNav()">&#9776;</button>   
         
     <main>
-        <div class="button-container">
-            <button>Flasker</button>
-            <button>Dåser</button>
-            <button>Tilbud</button>
-        </div>
-        <div class="slider">
-            <div class="product-container">
-                <div class="product">
-                    <img src="strawberry_bottle.png" alt="Jordbær smag">
-                    <h3>Jordbær smag</h3>
-                    <p>En unik blanding, der resulterer i en afbalanceret og forfriskende øl, der er spækket med frisk jordbærfrugtsmag. 0,00% alkohol</p>
-                    <div class="stars">★★★★★</div>
-                    <div class="price">11 kr./stk.</div>
-                    <div class="actions">
-                        <i class="fas fa-heart"></i>
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="apple_bottle.png" alt="Æble smag">
-                    <h3>Æble smag</h3>
-                    <p>smag forskellen for hver tår. Lavet af den fineste byg og den saftigste af æbler. 0,00% alkohol</p>
-                    <div class="stars">★★★★★</div>
-                    <div class="price">11 kr./stk.</div>
-                    <div class="actions">
-                        <i class="fas fa-heart"></i>
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-controls">
-                <button class="prev">&lt;</button>
-                <button class="next">&gt;</button>
-            </div>
-        </div>
     </main>
 
     <script>
@@ -97,26 +62,6 @@
             document.getElementById("mySidepanel").style.width = "0";
         }
 
-
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-        const productContainer = document.querySelector('.product-container');
-        let currentIndex = 0;
-
-        prevBtn.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                productContainer.style.transform = `translateX(-${currentIndex * 270}px)`;
-            }
-        });
-
-        nextBtn.addEventListener('click', () => {
-            if (currentIndex < productContainer.children.length - 1) {
-                currentIndex++;
-                productContainer.style.transform = `translateX(-${currentIndex * 270}px)`;
-            }
-        });
-    
     </script>    
 </body>
 </html>
