@@ -45,36 +45,39 @@
     </div>
     <button class="openbtn" onclick="openNav()">&#9776;</button>    
 
-    <main>
-        <div class="container">
-            <div class="form-container">
-                <h1>Kontakt Os</h1>
-                <div class="form-group">
-                    <label for="name">Fuldt Navn*</label>
-                    <input type="text" id="name" name="name" required>
+    <main> 
+        <section class="kontaktform">
+            <h1>Kontakt Os</h1>
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-group">
+                        <label for="name">Fuldt Navn*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Emne*</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Besked*</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send</button>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email*</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="sidebar">
+                    <h2>Forbruger og forretnings forespørgelser</h2>
+                    <p>For alle forbruger- og forretningsforespørgsler er du velkommen til at kontakte os.</p>
+                    <p>Tænker at blive en samarbejdspartner, der vil løfte både vores og dit brand? Er du også velkommen til at kontakt os, hvis du har nogle ideer i tankerne.</p>
                 </div>
-                <div class="form-group">
-                    <label for="subject">Emne*</label>
-                    <input type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Besked*</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Send</button>
-                </div>
-            </div>
-            <div class="sidebar">
-                <h2>Forbruger og forretnings forespørgelser</h2>
-                <p>For alle forbruger- og forretningsforespørgsler er du velkommen til at kontakte os.</p>
-                <p>Tænker at blive en samarbejdspartner, der vil løfte både vores og dit brand? Er du også velkommen til at kontakt os, hvis du har nogle ideer i tankerne.</p>
-            </div>
-        </div>
+            </div> 
+        </section>               
+
 
         <div class="newsletter">
             <h2>Tilmeld dig nyhedsbrev</h2>
