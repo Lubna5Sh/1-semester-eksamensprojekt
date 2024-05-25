@@ -12,27 +12,62 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="form-container">
-            <h1>Kontakt Os</h1>
-            <div class="form-group">
-                <label for="name">Fuldt Navn*</label>
-                <input type="text" id="name" name="name" required>
+    <a href="index.html"><img src="images/zerobuzzbrewlogo.png" id="logo" alt="ZeroBuzz logo"></a>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="dropdown">
+            <a href="omos.html" class="dropbtn">Om Os</a>
+            <div class="dropdown-content">
+                <a href="#">Medarbejdere</a>
+                <a href="#">Samarbejdspartnere</a>
             </div>
-            <div class="form-group">
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email" required>
+        </div>
+        <a href="produkts.html">Produkter</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Nyheder & Blog</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Kundeservice</a>
+            <div class="dropdown-content">
+                <a href="#">Q&A</a>
+                <a href="#">Retur & forsendelse politik</a>
+                <a href="#">Adresser & Åbningstider</a>
             </div>
-            <div class="form-group">
-                <label for="subject">Emne*</label>
-                <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Din Side</a>
+            <div class="dropdown-content">
+                <a href="#">Log Ind</a>
+                <a href="#">Sign Op</a>
             </div>
-            <div class="form-group">
-                <label for="message">Besked*</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Send</button>
+        </div>
+        <a href="#" id="shopping-bag"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>    
+
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <h1>Kontakt Os</h1>
+                <div class="form-group">
+                    <label for="name">Fuldt Navn*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Emne*</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Besked*</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
             </div>
             <div class="sidebar">
                 <h2>Forbruger og forretnings forespørgelser</h2>
@@ -40,14 +75,26 @@
                 <p>Tænker at blive en samarbejdspartner, der vil løfte både vores og dit brand? Er du også velkommen til at kontakt os, hvis du har nogle ideer i tankerne.</p>
             </div>
         </div>
-    </div>
-    <div class="newsletter">
-        <h2>Tilmeld dig nyhedsbrev</h2>
-        <form>
-            <input type="text" name="name" placeholder="Navn">
-            <input type="email" name="email" placeholder="Email">
-            <button type="submit">Tilmeld</button>
-        </form>
-    </div>
+
+        <div class="newsletter">
+            <h2>Tilmeld dig nyhedsbrev</h2>
+            <form>
+                <input type="text" name="name" placeholder="Navn">
+                <input type="email" name="email" placeholder="Email">
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div> 
+    </main>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>    
 </body>
 </html>
