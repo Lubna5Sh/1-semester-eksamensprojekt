@@ -185,9 +185,10 @@ main {
   flex: 0 0 auto;
   width: 300px;
   margin-right: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  /*border: 1px solid #ccc;
+  border-radius: 8px;*/
   overflow: hidden;
+  background-color: #F5CA6D;
 }
 
 .card:last-child {
@@ -205,9 +206,46 @@ main {
 
 .card-content h3 {
   margin: 0;
+  font-family: Sen;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-content p{
+  font-family: Sen;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rating{
+  padding: 10px;
+  margin: 10px;
 }
 
 .rating i {
-  color: #F6C65D;
+  color: #FFEB3B;
   font-size: 24px;
+}
+
+.priskurvelike{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/*.fa-heart{
+  color: #fff;
+}*/
+
+.fa-heart:hover {
+  color: crimson;
 }
