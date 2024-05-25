@@ -137,38 +137,58 @@ main{
 }
 
 body {
-    font-family: Arial, sans-serif;
     background-color: #f4e3b7;
     margin: 0;
     padding: 0;
 }
+
+.kontaktform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 50px 0;
-    max-width: 1300px;
-    width: 70%;
-    
+    padding: 0;
+    max-width: 1000px;
+    width: 60%;   
 }
+
 .form-container {
-    background-color: #f7c86c;
-    padding: 20px;
+    background-color: #F5CA6D;
+    padding: 20px 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
-.form-container h1 {
+
+h1 {
     text-align: center;
     color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
 }
+
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
+
 .form-group label {
     display: block;
-    margin-bottom: 5px;
-    color: #fff;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .form-group input,
@@ -182,51 +202,76 @@ body {
     height: 100px;
     resize: none;
 }
+
 .form-group button {
-    background-color: #c8a045;
+    background-color: #B08C3E;
     color: #fff;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .form-group button:hover {
     background-color: #a98636;
 }
+
 .sidebar {
     padding: 20px;
-    background-color: #f3a941;
-    color: #fff;
+    background-color:#F9D484;
+    width: 40%;
+    color: #000;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
+.sidebar p{
+    color: #000;
+    font-family: Sen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .newsletter {
     margin-top: 30px;
     text-align: center;
 }
+
 .newsletter h2 {
     color: #fff;
 }
+
 .newsletter form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .newsletter form input {
     padding: 10px;
     margin: 5px;
     width: 80%;
     border: 1px solid #ddd;
-    border-radius: 5px;
 }
+
 .newsletter form button {
     background-color: #c8a045;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
+
 .newsletter form button:hover {
     background-color: #a98636;
 }
