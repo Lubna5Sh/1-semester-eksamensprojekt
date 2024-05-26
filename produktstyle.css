@@ -141,6 +141,21 @@ body {
 main {
   margin: 0;
 }
+.billede-1{
+  /*display: flex;
+  justify-content: center;
+  width: 1364px;
+  height: 279px;
+  flex-shrink: 0;*/
+  display: block;
+  width: 100%;
+  /*height:auto;*/
+  /*max-height: auto;*/
+  height: 279px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
 
 .button-container {
   margin: 20px 0;
