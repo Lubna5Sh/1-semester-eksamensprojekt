@@ -427,7 +427,6 @@ main {
 @media (max-width: 800px) {
   .text-block {
     font-size: 43px; /* Adjust font size for tablets and smaller devices */
-    padding: 20px; /* Add some padding if needed */
     width: 100%;
     height: auto; /* Change height to auto to fit the content */
     position: absolute;
@@ -450,78 +449,59 @@ main {
   }
 
   .slider-container {
-    margin: 8px;
+    margin: 13px;
     padding: 20px 0;
-    width: 100%;
+    /*width: 100%;*/
   }
 
+  /*.slider-container {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin: 0 130px;
+    padding: 20px 0;
+  }*/
+
   .card {
-    flex: 0 0 auto;
-    width: 200px;
+    width: 237px;
     margin-right: 20px;
   }
   
-  /*.card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card-content {
-    padding: 10px;
-  }
-  
   .card-content h3 {
-    margin: 0;
-    font-family: Sen;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-size: 20px;
   }
   
   .card-content p{
-    font-family: Sen;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 16px;
   }
-  
-  .rating{
-    padding: 10px;
-    margin: 10px;
-  }
-  
+
   .rating i {
-    color: #FFEB3B;
-    font-size: 24px;
+    font-size: 22px;
   }
   
   .priskurvelike{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 24px;
-    font-family: Sen;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-size: 22px;
+  }
+
+  .priskurvelike p{
+    font-size: 20px;
+  }
+
+  .adresser-section h2 {
+    font-size: 28px;
   }
   
-  /*.fa-heart{
-    color: #fff;
-  }*/
-  
-  /*.fa-heart:hover {
-    color: crimson;
-  }*/
-
+  .lok {
+    font-size: 22px;
+  }
 
   .footer-container {
     flex-direction: column;
     /*align-items: center;*/
     justify-content: flex-start;
   }
+
   .footer-section {
     margin: 10px 0;
     text-align: left;
@@ -550,6 +530,25 @@ main {
     width: 100%;
     height: auto; /* Change height to auto to fit the content */
   }
+
+  .filterbtn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+
+  .slider-container{
+    margin: 66px;
+  }
+
+  .adresser-section h2 {
+    font-size: 22px;
+  }
+  
+  .lok {
+    font-size: 16px;
+  }
+  
     .footer-section ul {
     font-size: 16px;
   }
