@@ -161,7 +161,7 @@ main {
   width: 100%;
   /*height:auto;*/
   /*max-height: auto;*/
-  height: 279px;
+  height: 650px;
   margin: 20px 0;
 }
 
@@ -264,6 +264,8 @@ main {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  cursor: pointer;
+  
 }
 
 /*.fa-heart{
@@ -272,6 +274,10 @@ main {
 
 .fa-heart:hover {
   color: crimson;
+}
+
+.fa-bag-shopping:hover{
+  color:#FFFCF5;
 }
 
 
