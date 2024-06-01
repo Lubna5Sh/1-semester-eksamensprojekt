@@ -1,4 +1,4 @@
-$('#view-flasker').on('click', function() {
+/*$('#view-flasker').on('click', function() {
     const flasker = $('#flasker').position().top;
 
     $('html, body').animate(
@@ -31,4 +31,4 @@ $('#view-tilbud').on('click', function() {
         },
         900
     );
-});
+});*/
