@@ -12,11 +12,14 @@
 </head>
 
 <body>
+
+    <!--Herobillede til Produkters side-->
     <section class="forsidebillede">
         <img src="images/beer-cans-bottle-in-ice-copy.jpg" id="coverbillede" alt="Øl dåser og flaske i isterninger">
         <div class="text-block"><h1>Produkter</h1></div>
     </section>
 
+    <!--Topbar-->
     <a href="index.html"><img src="images/zerobuzzbrewlogo.png" id="logo" alt="ZeroBuzz logo"></a>
 
     <div id="mySidepanel" class="sidepanel">
@@ -51,12 +54,16 @@
     <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>    
 
     <main>
+
+        <!--Fødselsdag rabat sektion-->
         <div class="billede1container">
             <img class="billede-1" src="images/birthday-tilbud-copy.jpg" alt="Fødselsdag tilbud">
             <p>Vidste du, at du kan få op til 40% rabat på din fødselsdag, når du køber en pakke med 25 flasker eller dåser af vores lækre øl? 
                 <br>Vis dit medlemskort ved kassen hos en af vores forhandlere på nedenstående adresser, og nyd den automatiske rabat. Fejr din fødselsdag med stil og skål med os!
             </p>
         </div>
+
+        <!--Slider korte for flasker & smoothscroll buttons-->
         <div class="button-container">
             <a href="#flasker" class="btn">Flasker</a>
             <a href="#daaser" class="btn">Dåser</a>
@@ -197,7 +204,7 @@
             </div>
         </section>
 
-
+        <!--Slider korte for dåser & smoothscroll buttons-->
         <div class="button-container">
             <a href="#flasker" class="btn">Flasker</a>
             <a href="#daaser" class="btn">Dåser</a>
@@ -340,7 +347,7 @@
             </div>
         </section>
     
-
+        <!--Slider korte for tilbud & smoothscroll buttons-->
         <div class="button-container">
             <a href="#flasker" class="btn">Flasker</a>
             <a href="#daaser" class="btn">Dåser</a>
@@ -434,7 +441,7 @@
         </section>
         
 
-
+        <!--Adresser sektion-->
         <section class="adresser-section">
             <h2>Du finder vores produkter her også:</h2>
             <div class="adresser-container">
@@ -457,6 +464,7 @@
         </section>
         
     </main>
+    <!--Footer-->
     <footer class="footer">
         <div class="footer-container">
           <div class="footer-section logo-section">
@@ -481,11 +489,13 @@
             </div>
           </div>
         </div>
+        <!--Copyright-->
         <div class="footer-bottom">
           <p>&copy; 2024 ZeroBuzz Brew</p>
         </div>
       </footer>
     
+      <!--Javascript kode til sidepanel/menu-->
     <script>
         function openNav() {
             document.getElementById("mySidepanel").style.width = "250px";
