@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&family=Sen:wght@400..800&display=swap');
 
+/*----Smooth scrolling til produkters buttons----*/
 html {
   scroll-behavior: smooth;
 }
 
+/* ----Header logo----*/
 #logo {
   position: fixed;
   top: 20px;
@@ -12,6 +14,7 @@ html {
   height: 80px;
 }
 
+/*--Herobillede-----*/
 .forsidebillede{
   position: relative;
   text-align: center;
@@ -27,12 +30,12 @@ html {
   filter: brightness(80%);
 }
 
+/*--Billedetekst - Overskrift----*/
 .text-block {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
   font-weight: 900;
   width: 100%;
-  /*height: 100%;*/
   color: #fff;
   position: absolute;
   top: 50%;
@@ -40,6 +43,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
+/*----Sidepanel - Menu----*/
 .sidepanel {
   width: 0;
   position: fixed;
@@ -141,7 +145,6 @@ html {
 }
 
 body {
-  /*padding: 0;*/
   margin: 0;
   background-color: #FFFCF5;
 }
@@ -150,6 +153,7 @@ main {
   margin: auto;
 }
 
+/*----Fødeslesdag tilbud billede----*/
 .billede1container{
   padding: 30px 90px;
   max-width: 90%;
@@ -160,19 +164,13 @@ main {
 }
 
 .billede-1{
-  /*display: flex;
-  justify-content: center;
-  width: 1364px;
-  height: 279px;
-  flex-shrink: 0;*/
   display: block;
   width: 100%;
-  /*height:auto;*/
-  /*max-height: auto;*/
   height: 650px;
   margin: 20px 0;
 }
 
+/*Billede tekst*/
 .billede1container p{
   text-align: center;
   width: 65%;
@@ -184,6 +182,8 @@ main {
   line-height: 130%; /* 46.8px */
 }
 
+
+/*----Produkters buttons----*/
 .button-container {
   margin: 20px 0;
   display: flex;
@@ -213,6 +213,8 @@ main {
   background-color: #F6C65D;
 }
 
+
+/*-----Produkters slider korte container----*/ 
 .slider-container {
   display: flex;
   overflow-x: auto;
@@ -230,8 +232,6 @@ main {
   flex: 0 0 auto;
   width: 300px;
   margin-right: 20px;
-  /*border: 1px solid #ccc;
-  border-radius: 8px;*/
   overflow: hidden;
   background-color: #F5CA6D;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -290,10 +290,6 @@ main {
   
 }
 
-/*.fa-heart{
-  color: #fff;
-}*/
-
 .fa-heart:hover {
   color: crimson;
 }
@@ -302,7 +298,7 @@ main {
   color:#FFFCF5;
 }
 
-
+/*----Adresser----*/
 .adresser-section {
   background-color: #F9D484;
   padding: 20px;
@@ -339,8 +335,7 @@ main {
   margin: 5px 0;
 }
 
-/*footer section*/
-
+/*----footer section-----*/
 .footer {
   background-color: #F6C65D;
   color: #000;
@@ -405,6 +400,7 @@ main {
   line-height: normal;
 }
 
+/*Socialmedier ikoner*/
 .social-icons {
   margin-top: 10px;
 }
@@ -420,10 +416,10 @@ main {
   color: #ffffff;
 }
 
+/*Copyright*/
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  /*border-top: 1px solid #ddd;*/
 }
 
 .footer-bottom p {
@@ -436,6 +432,7 @@ main {
   line-height: normal;
 }
 
+/*Footer logo*/
 .footer .logo-section {
   display: flex;
   align-items: center;
@@ -443,8 +440,6 @@ main {
 }
 
 .footer .logo-section img {
-  /*max-width: 100%;
-  height: auto;*/
   width:200px;
   height:130px;
   margin-top: 20px;
@@ -479,17 +474,7 @@ main {
   .slider-container {
     margin: 13px;
     padding: 20px 0;
-    /*width: 100%;*/
   }
-
-  /*.slider-container {
-    display: flex;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    margin: 0 130px;
-    padding: 20px 0;
-  }*/
 
   .card {
     width: 237px;
@@ -526,7 +511,6 @@ main {
 
   .footer-container {
     flex-direction: column;
-    /*align-items: center;*/
     justify-content: flex-start;
   }
 
@@ -553,8 +537,6 @@ main {
   .text-block {
     font-size: 35px; /* Adjust font size for mobile devices */
     padding: 10px; /* Add some padding if needed */
-    /*top: 0;
-    left: 0;*/
     width: 100%;
     height: auto; /* Change height to auto to fit the content */
   }
