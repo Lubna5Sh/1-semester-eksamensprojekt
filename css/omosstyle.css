@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&family=Sen:wght@400..800&display=swap');
 
+/*---Header logo---*/
 #logo {
   position: fixed;
   top: 20px; /* Adjust the top position as needed */
@@ -8,6 +9,7 @@
   height:80px;
 }
 
+/*--Herobillede-----*/
 .forsidebillede{
     position: relative;
     text-align: center;
@@ -20,21 +22,16 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  /*padding-bottom: 7%;*/ 
-  /*background: rgba(0, 0, 0, 0.37); /* Optional: to darken the image*/ 
   filter: brightness(80%); /* Darken the image */
 }
 
+/*--Billedetekst - Overskrift----*/
 .text-block{
-    /*position:absolute;
-    bottom:85px;
-    color:#ffffff;*/
     font-family: "Roboto", sans-serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 900;
     width: 100%;
-    /*height: 100%;*/
     color: #fff;
     position: absolute;
     top: 50%;
@@ -42,6 +39,7 @@
     transform: translate(-50%, -50%);
 }
 
+/*----Sidepanel - Menu----*/
 .sidepanel  {
     width: 0;
     position: fixed;
@@ -146,18 +144,16 @@
 
   
 body{
-    /*padding: 0;*/
     margin: 0;
     background-color:#FFFCF5;
   }
-  
-  /*Content sections*/
 
 main{
     margin:auto;
-    /*padding: 90px 150px;*/
 }
 
+
+/*---Vores historie---*/
 .topsection{
     padding: 30px 150px;
     max-width: 90%;
@@ -187,24 +183,17 @@ h2{
 }
 
 .billede-1{
-    /*display: flex;
-    justify-content: center;
-    width: 1364px;
-    height: 279px;
-    flex-shrink: 0;*/
     display: block;
     width: 100%;
     height:auto;
-    /*max-height: auto;*/
-    /*height:500px;*/
     margin: 20px 0;
     padding: 20px;
 }
 
+
+/*----Vores vision - Vores værdier----*/
 .flex{
-    /*width: 100%;*/
     margin: 0 auto;
-    /*padding: 20px;*/
     display: flex;
     justify-content: flex-start;
     padding: 20px 150px;
@@ -233,7 +222,6 @@ h3{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    /*text-align: center;*/
 }
 
 .section2-flex p{
@@ -276,14 +264,7 @@ li{
     gap: 100px;
 }
 
-/*#column1{
-    align-items: center;
-}
-
-#column2{
-    align-items: center;
-}*/
-
+/*----Afslutning----*/
 .lasttext{
     padding: 20px 150px;
     max-width: 90%;
@@ -438,8 +419,7 @@ q {
 }
 
 
-/*footer section*/
-
+/*-----Footer-----*/
 .footer {
     background-color: #F6C65D;
     color: #000;
@@ -504,6 +484,7 @@ q {
     line-height: normal;
 }
   
+/*Socialmedier ikoner*/
 .social-icons {
     margin-top: 10px;
 }
@@ -519,10 +500,10 @@ q {
     color: #ffffff;
 }
   
+/*Copyright*/
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    /*border-top: 1px solid #ddd;*/
 }
   
 .footer-bottom p {
@@ -534,7 +515,8 @@ q {
     font-weight: 400;
     line-height: normal;
 }
-  
+
+/*Footer logo*/  
 .footer .logo-section {
     display: flex;
     align-items: center;
@@ -542,8 +524,6 @@ q {
 }
   
 .footer .logo-section img {
-    /*max-width: 100%;
-    height: auto;*/
     width:200px;
     height:130px;
     margin-top: 20px;
@@ -577,13 +557,10 @@ q {
     }
 
     .flex{
-        /*width: 100%;*/
         margin: 0 auto;
-        /*padding: 20px;*/
         justify-content: flex-start;
         padding: 8px;
         max-width: 100%;
-        /*flex-direction: column;*/
     }
 
     #row1 {
@@ -646,7 +623,6 @@ q {
 
     .footer-container {
         flex-direction: column;
-        /*align-items: center;*/
         justify-content: flex-start;
       }
       .footer-section {
@@ -672,8 +648,6 @@ q {
     .text-block {
       font-size: 35px; /* Adjust font size for mobile devices */
       padding: 10px; /* Add some padding if needed */
-      /*top: 0;
-      left: 0;*/
       width: 100%;
       height: auto; /* Change height to auto to fit the content */
     }
