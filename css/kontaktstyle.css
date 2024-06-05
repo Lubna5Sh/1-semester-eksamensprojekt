@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&family=Sen:wght@400..800&display=swap');
 
+/*----Header logo----*/
 #logo {
     position: fixed;
     top: 20px;
@@ -8,6 +9,7 @@
     height: 80px;
 }
 
+/*----Sidens overskrift----*/
 .text-block {
     font-family: "Roboto", sans-serif;
     font-size: 60px;
@@ -23,7 +25,9 @@
     color: #fff;
     text-align: center;
 }
-  
+
+
+/*----Sidepanel-menu----*/  
 .sidepanel {
     width: 0;
     position: fixed;
@@ -134,6 +138,7 @@ body {
     padding: 0;
 }
 
+/* ----Kontaktformular----*/
 .kontaktform{
     display: flex;
     flex-direction: column;
@@ -151,12 +156,12 @@ body {
     width: 60%;   
 }
 
+/*Oplysninger input*/
 .form-container {
     background-color: #F5CA6D;
     padding: 20px 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 90%;
-    /*max-width: 600px;*/
 }
 
 h1 {
@@ -212,6 +217,7 @@ h1 {
     background-color: #a98636;
 }
 
+/*Info til afsendere*/
 .sidebar {
     padding: 20px;
     background-color:#F9D484;
@@ -234,7 +240,7 @@ h1 {
     line-height: normal;
 }
 
-
+/* ----Nyhedsbrev formular---- */
 .nyhedsbrev-section {
     display: flex;
     justify-content: center; /* Center the content horizontally */
@@ -249,7 +255,6 @@ h1 {
     display: flex;
     flex-direction: row; /* Ensure column layout for form */
     align-items: flex-start;
-    /*width: 100%; /* Ensure the container takes full width */
     gap:20px;
 }
 
@@ -313,8 +318,7 @@ h1 {
     background-color: #a98636;
 }
 
-/*footer section*/
-
+/* ----footer section----- */
 .footer {
     background-color: #F6C65D;
     color: #000;
@@ -379,6 +383,7 @@ h1 {
     line-height: normal;
   }
   
+  /*socialmedier ikoner*/
   .social-icons {
     margin-top: 10px;
   }
@@ -393,11 +398,11 @@ h1 {
   .social-icons a:hover {
     color: #ffffff;
   }
-  
+
+  /*Copyright*/
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    /*border-top: 1px solid #ddd;*/
   }
   
   .footer-bottom p {
@@ -410,6 +415,7 @@ h1 {
     line-height: normal;
   }
   
+  /*footer logo*/
   .footer .logo-section {
     display: flex;
     align-items: center;
@@ -417,8 +423,6 @@ h1 {
   }
   
   .footer .logo-section img {
-    /*max-width: 100%;
-    height: auto;*/
     width:200px;
     height:130px;
     margin-top: 20px;
@@ -428,14 +432,7 @@ h1 {
 /* -----Responsive styles-------- */
 /*skærmestørrelser 800px og under*/
 @media (max-width: 800px) {
-    /*.container {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        padding: 0;
-        max-width: 1000px;
-        width: 60%;   
-    }*/
+
     .container {
         max-width: 500px;
         width: 100%;
@@ -468,7 +465,6 @@ h1 {
 
     .footer-container {
         flex-direction: column;
-        /*align-items: center;*/
         justify-content: flex-start;
     }
     
