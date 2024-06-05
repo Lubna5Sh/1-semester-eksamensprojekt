@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&family=Sen:wght@400..800&display=swap');
+
+/*-----Header logo---*/
 #logo {
   position: fixed;
   top: 20px; /* Adjust the top position as needed */
@@ -7,6 +9,7 @@
   height:80px;
 }
 
+/*--Herobillede-----*/
 .forsidebillede{
   position: relative;
   text-align: center;
@@ -18,21 +21,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  /*padding-bottom: 7%;*/ 
-  /*background: rgba(0, 0, 0, 0.37); /* Optional: to darken the image*/ 
+  background-size: cover; 
   filter: brightness(80%); /* Darken the image */
 }
 
+/*--Billedetekst - Overskrift----*/
 .text-block{
   font-family: "Roboto", sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 900;
-  /*top: 0;
-  left: 0;*/
   width: 100%;
-  /*height: 100%;*/
   color: #fff;
   position: absolute;
   top: 50%;
@@ -40,7 +39,7 @@
   transform: translate(-50%, -50%);
  }
  
-/*Menu*/
+/*----Sidepanel - Menu----*/
 .sidepanel  {
   width: 0;
   position: fixed;
@@ -143,20 +142,18 @@
 }
 
 body{
-  /*padding: 0px 150px;*/
   margin: 0;
 }
 
-/*Content sections*/
 main{
   margin:auto;
-  /*max-width: 100%;*/
 }
 
 .section {
   padding: 20px;
 }
 
+/*----forslag af tilfældig artikel----*/
 .yellow-bg {
   background-color: #F9D484;
   display: flex;
@@ -169,7 +166,6 @@ main{
   max-width: 1200px;
   width: 100%;
   gap: 123px;
-  /*padding: 125px 25px;*/
   padding: 90px 150px;
   align-items: flex-start;
 }
@@ -187,7 +183,6 @@ main{
   flex-direction: column;
   justify-content: center;
   color: #000;
-  /*max-width: 777px;*/
   align-items: flex-start;
 }
 
@@ -210,6 +205,7 @@ main{
   line-height: 130%; /* 46.8px */
 }
 
+/*button læs mere*/
 .read-more {
   background-color: #ffffff;
   color: #000;
@@ -232,7 +228,7 @@ main{
   background-color:#F6C65D;
 }
 
-/*Instagram section*/
+/*----Instagram section----*/
 .white-bg {
   background-color: #FFFCF5;
   text-align: center;
@@ -257,17 +253,15 @@ main{
 }
 
 .insta-gallery img {
-  /*max-width: 300px;*/
-  /*width: 100%;*/
   max-width: 444.78px;
   width: 300px;
   max-height: 397px;
   height: 300px;
-  /*max-height: 200px;*/
   margin-bottom: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+/*button følg os*/
 .insta{
   margin-top: 10px;
   padding: 10px 20px;
@@ -291,7 +285,7 @@ main{
   background-color:#F6C65D;
 }
 
-/*footer section*/
+/*-----Footer------*/
 .footer {
   background-color: #F6C65D;
   color: #000;
@@ -357,6 +351,7 @@ main{
   line-height: normal;
 }
 
+/*Socialmedier ikoner*/
 .social-icons {
   margin-top: 10px;
 }
@@ -372,10 +367,10 @@ main{
   color: #ffffff;
 }
 
+/*Copyright*/
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  /*border-top: 1px solid #ddd;*/
 }
 
 .footer-bottom p {
@@ -388,6 +383,7 @@ main{
   line-height: normal;
 }
 
+/*Footer logo*/
 .footer .logo-section {
   display: flex;
   align-items: center;
@@ -395,8 +391,6 @@ main{
 }
 
 .footer .logo-section img {
-  /*max-width: 100%;
-  height: auto;*/
   width:200px;
   height:130px;
   margin-top: 20px;
@@ -427,7 +421,6 @@ main{
 
   .content {
     flex-direction: column-reverse;
-    /*align-items: center;*/
     justify-content: flex-start;
     padding: 20px;
     gap: 20px;
@@ -457,7 +450,6 @@ main{
 
   .footer-container {
     flex-direction: column;
-    /*align-items: center;*/
     justify-content: flex-start;
   }
   .footer-section {
@@ -483,8 +475,6 @@ main{
   .text-block {
     font-size: 35px; /* Adjust font size for mobile devices */
     padding: 10px; /* Add some padding if needed */
-    /*top: 0;
-    left: 0;*/
     width: 100%;
     height: auto; /* Change height to auto to fit the content */
   }
