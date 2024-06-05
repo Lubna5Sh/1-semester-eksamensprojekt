@@ -216,29 +216,29 @@ main {
 
 /*-----Produkters slider korte container----*/ 
 .slider-container {
-  display: flex;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  margin: 0 130px;
+  display: flex; /* Gør containeren til en fleksibel boks for at placere elementer i en række */
+  overflow-x: auto; /* Aktiverer horisontal rulning, hvis indholdet er bredere end containeren */
+  scrollbar-width: none; /* Skjuler den horisontale rullebjælke'scrollbaren' i Firefox */
+  -ms-overflow-style: none; /* Skjuler den horisontale rullebjælke i Internet Explorer og Edge */
+  margin: 0 130px; /* Sætter top og bund margin til 0, venstre og højre margin til 130px */
   padding: 20px 0;
 }
 
 .slider-container::-webkit-scrollbar {
-  display: none;
+  display: none; /* Skjuler den horisontale rullebjælke i Webkit-baserede browsere (som Chrome og Safari) */
 }
 
 .card {
-  flex: 0 0 auto;
-  width: 300px;
+  flex: 0 0 auto; /* Gør, at hvert kort ikke strækker sig og beholder sin faste bredde */
+  width: 300px; /* Sætter bredden på hvert kort til 300px */
   margin-right: 20px;
-  overflow: hidden;
+  overflow: hidden; /* Skjuler indhold, der går udenfor kortets grænser */
   background-color: #F5CA6D;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); /* Tilføjer en skyggeeffekt på kortet */
 }
 
 .card:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Fjerner højre margin for det sidste kort i slideren */
 }
 
 .card img {
